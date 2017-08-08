@@ -80,7 +80,7 @@
     <form autocomplete='off' action="{{ route('postLogin') }}" method="post">
       <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
       <div class="form-group has-feedback">
-        <input autocomplete='off' type="text" class="form-control" name='email' required placeholder="Email"/>
+        <input autocomplete='off' type="text" class="form-control" name='<?php echo config('crudbooster.USER_USERNAME_FIELD', 'email'); ?>' required placeholder="<?php echo ucwords(config('crudbooster.USER_USERNAME_FIELD', 'email')); ?>"/>
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">

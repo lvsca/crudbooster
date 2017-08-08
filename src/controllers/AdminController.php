@@ -131,8 +131,7 @@ class AdminController extends CBController
     {
         $validator = Validator::make(Request::all(),
             [
-                config('crudbooster.USER_USERNAME_FIELD', config('crudbooster.USER_USERNAME_FIELD',
-                    'email')) => 'required|string|exists:' . config('crudbooster.USER_TABLE'),
+                config('crudbooster.USER_USERNAME_FIELD', 'email') => 'required|string|exists:' . config('crudbooster.USER_TABLE'),
             ]
         );
 
