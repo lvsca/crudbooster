@@ -5,6 +5,7 @@ return [
 	'ADMIN_PATH'                =>'admin',
 
 	'USER_TABLE'				=>'cms_users',
+    'USER_USERNAME_FIELD'		=>'username',
 	
 	'IMAGE_FIELDS_CANDIDATE'    =>'image,picture,photo,photos,foto,gambar,thumbnail',
 	
