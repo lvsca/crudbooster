@@ -1,5 +1,5 @@
 {
-    "name": "crocodicstudio/crudbooster",
+    "name": "whytobe/crudbooster",
     "description": "CRUDBooster Is A New Way Laravel CRUD Generator. It's easy, fleksible, and powerful.",
     "type": "project",
     "license": "MIT",
@@ -13,6 +13,12 @@
         {
             "name": "Ferry",
             "email": "ferry@crocodic.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/whytobe/crudbooster"
         }
     ],
     "minimum-stability": "dev",
